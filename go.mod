@@ -1,4 +1,4 @@
-module sigs.k8s.io/karpenter
+module github.com/the-technat/karpenter
 
 go 1.26.4
 
