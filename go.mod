@@ -43,6 +43,8 @@ require (
 
 replace sigs.k8s.io/karpenter => github.com/the-technat/karpenter v1.13.1-rc2
 
+replace sigs.k8s.io/karpenter/dra-kwok-driver => github.com/the-technat/karpenter/dra-kwok-driver v1.13.1-rc2
+
 require (
 	cel.dev/expr v0.24.0 // indirect
 	github.com/Masterminds/semver/v3 v3.4.0 // indirect
