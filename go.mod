@@ -37,8 +37,11 @@ require (
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/utils v0.0.0-20251222233032-718f0e51e6d2
 	sigs.k8s.io/controller-runtime v0.23.1
+	sigs.k8s.io/karpenter v0.0.0-00010101000000-000000000000
 	sigs.k8s.io/yaml v1.6.0
 )
+
+replace sigs.k8s.io/karpenter => github.com/the-technat/karpenter v1.13.1-rc2
 
 require (
 	cel.dev/expr v0.24.0 // indirect
