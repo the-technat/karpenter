@@ -1,7 +1,7 @@
 name: kind-perf-e2e
 on:
-  push:
-    branches: [main]
+  # push:
+  #   branches: [main]
   workflow_run:
     workflows:
       - ApprovalComment
